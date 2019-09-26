@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="index.css">
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <title>Chamada</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#"><h2>Sistemas de chamados</h2></a>
+
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+    </ul>
+    <div class="btn-group">
+  <button type="submit"  value="disciplina" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Selecione a disciplina
+  </button>
+  <div class="dropdown-menu dropdown-menu-right">
+
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="dropdown-item" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Programação orientada ao objeto</a>
+    <a class="dropdown-item" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Programação Android</a>
+    <a class="dropdown-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Programação Web</a>
+  </div>
+  </div>
+</div>
+  </div>
+</nav
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <div class="container">
+      <div class="tab-content" id="nav-tabContent">
+        <!--Começa aqui o codigo da tabela da disciplina de Programação Orientado ao objetos-->
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+    <div class="row ">
+      <div class="col-12 text-center">
+        <h2>Programação Orientado ao Objetos</h2>
+      </div>
+    </div>
+      <div class="row justify-content-center ">
+          <div class="col-sm-2 p-2 text-center border border-dark rounded">
+            <h4>Matricula</h4>
+          </div>
+          <div class="col-sm-3 p-2  text-center border border-dark rounded">
+            <h4>Nome </h4>
+          </div>
+          <div class="col-sm-6  p-2  border border-dark text-center rounded ">
+          <input type="text" value="Selecione a data " class="form-control form-control-lg text-center" id="calendario1" />
+          </div>
+        </div>
+    <br>
+    <!-- tabela responsiva horizontal -->
+
+    <div class="table-responsive">
+  <table class="table">
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom text-center">
+          alu201518320
+      </div>
+      <div class="col-sm-3  border-bottom ">
+          ADRIANA DOS SANTOS
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V" title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom text-center">
+          alu201518960
+      </div>
+      <div class="col-sm-3  border-bottom ">
+          ADRIANO PEREIRA MARTINS
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V" title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom text-center">
+          alu201955550
+      </div>
+      <div class="col-sm-3  border-bottom ">
+          BRUNA VON ONÇAI
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V" title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom text-center">
+          alu201625118
+      </div>
+      <div class="col-sm-3  border-bottom ">
+          BRUNO VICENTE ALVES
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V" title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom  text-center">
+          alu201715010
+      </div>
+      <div class="col-sm-3  border-bottom ">
+          EMERSON LUIS P
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom  text-center">
+          alu201815190
+      </div>
+      <div class="col-sm-3  border-bottom">
+          EMERSON ZANONI DE OLIVEIRA
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom  text-center">
+          alu201612117
+      </div>
+      <div class="col-sm-3  border-bottom">
+          MARCOS VINICIUS PECCI
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2  border-bottom text-center">
+          alu201915020
+      </div>
+      <div class="col-sm-3 border-bottom">
+          MAURI DA SILVA SAURO
+      </div>
+
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2   border-bottom text-center">
+          alu201915061
+      </div>
+      <div class="col-sm-3   border-bottom">
+          PIETRO MARTINS DIAS
+      </div>
+
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+  </table>
+  </div>
+    <!-- termina aqui a tabela -->
+  </div>
+
+
+
+
+
+
+    <!-- segunda materia -->
+
+
+
+
+
+
+
+  <!-- Começa aqui o ocdigo da tabela da disciplina de Programação Android-->
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Programação Android</h2>
+      </div>
+    </div>
+    <div class="row  justify-content-center ">
+      <div class="col-sm-2 p-2 text-center border border-dark rounded">
+        <h4>Matricula</h4>
+      </div>
+      <div class="col-sm-3 p-2  text-center border border-dark rounded">
+        <h4>Nome</h4>
+      </div>
+      <div class="col-sm-6  p-2  border border-dark text-center rounded">
+        <input type="text" value="Selecione a data " class="form-control form-control-lg text-center" id="calendario2" />
+      </div>
+    </div>
+    <br>
+    <!-- tabela responsiva -->
+    <div class="table-responsive">
+  <table class="table">
+    <div class="scrollbar-ripe-malinka">
+      <div class="row  justify-content-center">
+        <div class="col-sm-2   border-bottom text-center">
+            alu201501060
+        </div>
+        <div class="col-sm-3   border-bottom">
+            ALANA ALVES
+        </div>
+        <div class="col-sm-1  border-bottom text-center">
+            <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1  border-bottom  text-center">
+            <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1  border-bottom text-center">
+            <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1 border-bottom   text-center">
+            <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1 border-bottom   text-center ">
+            <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1   border-bottom  text-center">
+            <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+        </div>
+      </div>
+      <div class="row  justify-content-center">
+        <div class="col-sm-2   border-bottom text-center">
+            alu201625118
+        </div>
+        <div class="col-sm-3   border-bottom">
+            BRUNO VICENTE ALVES
+        </div>
+        <div class="col-sm-1  border-bottom text-center">
+            <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1  border-bottom  text-center">
+            <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1  border-bottom text-center">
+            <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1 border-bottom   text-center">
+            <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1 border-bottom   text-center ">
+            <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+        </div>
+        <div class="col-sm-1   border-bottom  text-center">
+            <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row  justify-content-center">
+    <div class="col-sm-2   border-bottom text-center">
+        alu201625251
+    </div>
+    <div class="col-sm-3   border-bottom">
+        BRUNO PEREIRA DOS SANTOS
+    </div>
+    <div class="col-sm-1  border-bottom text-center">
+        <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1  border-bottom  text-center">
+        <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1  border-bottom text-center">
+        <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1 border-bottom   text-center">
+        <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1 border-bottom   text-center ">
+        <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1   border-bottom  text-center">
+        <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+    </div>
+  </div>
+</div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201617510
+  </div>
+  <div class="col-sm-3   border-bottom">
+      CARINA DOS SANTOS
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+</div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201715086
+  </div>
+  <div class="col-sm-3   border-bottom">
+      CALVIN JR JR
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+</div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201819687
+  </div>
+  <div class="col-sm-3   border-bottom">
+      EMERSON LUIS P
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+</div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201916552
+  </div>
+  <div class="col-sm-3   border-bottom">
+      EMERSON KOSKOVALSKI
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+</div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201916310
+  </div>
+  <div class="col-sm-3   border-bottom">
+      FELIPE DOS SANTOS JR
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+</div>
+    </table>
+      </div>
+    <!-- termina aqui a tabela-->
+  </div>
+
+
+
+
+
+    <!-- PROGRAMAÇÃO ANDROID ENCERROU -->
+
+
+
+
+
+
+  <!--Começa aqui o codigo da tabela do disciplina de Programação Web-->
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Programação Web</h2>
+        </div>
+      </div>
+    <div class="row  justify-content-center ">
+      <div class="col-sm-2 p-2 text-center border border-dark rounded">
+      <h4>Matricula</h4>
+      </div>
+      <div class="col-sm-3 p-2  text-center border border-dark rounded">
+        <h4>Nome</h4>
+      </div>
+      <div class="col-sm-6  p-2  border border-dark text-center rounded">
+      <input type="text" value="Selecione a data " class="form-control form-control-lg text-center" id="calendario3" />
+      </div>
+    </div>
+    <br>
+    <!-- tabela responsiva -->
+    <div class="table-responsive">
+  <table class="table">
+    <div class="row  justify-content-center">
+      <div class="col-sm-2   border-bottom text-center">
+          alu201518995
+      </div>
+      <div class="col-sm-3  border-bottom">
+          ANDRÉ MACHADO DE ASSIS
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2   border-bottom text-center">
+          alu201515010
+      </div>
+      <div class="col-sm-3   border-bottom">
+          ADRIANO TIGRE FIGUEIREDO
+      </div>
+
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-sm-2   border-bottom text-center">
+          alu201518960
+      </div>
+      <div class="col-sm-3   border-bottom">
+          BRUNO ALMIR SANTOS
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom  text-center">
+          <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1  border-bottom text-center">
+          <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center">
+          <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1 border-bottom   text-center ">
+          <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+      </div>
+      <div class="col-sm-1   border-bottom  text-center">
+          <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+      </div>
+    </div>
+  </div>
+  <div class="row  justify-content-center">
+    <div class="col-sm-2   border-bottom text-center">
+        alu201625118
+    </div>
+    <div class="col-sm-3   border-bottom">
+        BRUNO VICENTE ALVES
+    </div>
+    <div class="col-sm-1  border-bottom text-center">
+        <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1  border-bottom  text-center">
+        <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1  border-bottom text-center">
+        <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1 border-bottom   text-center">
+        <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1 border-bottom   text-center ">
+        <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+    </div>
+    <div class="col-sm-1   border-bottom  text-center">
+        <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+    </div>
+  </div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201666666
+  </div>
+  <div class="col-sm-3   border-bottom">
+      CAROLINE FEIJÓ
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+</div>
+<div class="row  justify-content-center">
+  <div class="col-sm-2   border-bottom text-center">
+      alu201615020
+  </div>
+  <div class="col-sm-3   border-bottom">
+      DANIEL CLAITON DOS SANTOS
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V"  title="Primeiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom  text-center">
+      <input type="button" value="V"  title="Segundo Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1  border-bottom text-center">
+      <input type="button" value="V" title="Terceiro Periodo" class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center">
+      <input type="button" value="V"  title="Quarto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1 border-bottom   text-center ">
+      <input type="button" value="V"  title="Quinto Periodo"class="btn btn-primary cor">
+  </div>
+  <div class="col-sm-1   border-bottom  text-center">
+      <input type="button" value="V"  title="Sexto Periodo"class="btn btn-primary cor">
+  </div>
+</div>
+
+    </table>
+    </div>
+    <!--Termina aqui o codigo da tabela -->
+  </div>
+
+
+
+
+
+    <!--AQUI TERMINA A DICIPLINA WEB -->
+
+
+
+
+
+</div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col col-lg-8">
+      </div>
+      <div class="col col-lg-4">
+          <a href=""><button type="button" title="clique aqui para salvar a chamada!" class="btn btn-success border-success btn-lg">Salvar a Chamada</button></a>
+      </div>
+    </div>
+  </body>
+</html>

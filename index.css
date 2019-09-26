@@ -1,0 +1,30 @@
+.table-responsive {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+
+.table-responsive1 {
+    display: block;
+position: relative;
+  width: 1200px;
+}
+
+.table-responsive thead,
+.table-responsive tbody,
+.table-responsive th,
+.table-responsive td,
+.table-responsive tr {
+  display: block;
+}
+
+
+.linhas{
+  width: 50%;
+
+}
+
+.cor{
+  background-color: blue;
+}
